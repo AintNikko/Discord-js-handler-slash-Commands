@@ -9,7 +9,7 @@ module.exports = { //if [OPTIONAL] it means, you don't need to type it!
   usage: "embed <Title> ++ <Description>", //the Command usage [OPTIONAL]
   description: "Resends your Text in an embed", //the command description [OPTIONAL]
   memberpermissions: ["ADMINISTRATION"], //Only allow members with specific Permissions to execute a Commmand [OPTIONAL]
-  requiredroles: ["818267553637597224"], //Only allow specific Users with a Role to execute a Command [OPTIONAL]
+  requiredroles: [], //Only allow specific Users with a Role to execute a Command [OPTIONAL]
   alloweduserids: [], //Only allow specific Users to execute a Command [OPTIONAL]
   minargs: 0, // minimum args for the message, 0 == none [OPTIONAL]
   maxargs: 0, // maximum args for the message, 0 == none [OPTIONAL]

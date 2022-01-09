@@ -31,7 +31,7 @@ const client = new Discord.Client({
     ],
     presence: {
       activity: {
-        name: `Music`, 
+        name: `to you scream`, 
         type: "LISTENING", 
       },
       status: "online"
@@ -51,13 +51,3 @@ client.categories = require("fs").readdirSync(`./commands`);
     })
 //Start the Bot
 client.login(config.token)
-
-/**
- * @INFO
- * Bot Coded by Tomato#6966 | https://discord.gg/milrato
- * @INFO
- * Work for Milrato Development | https://milrato.eu
- * @INFO
- * Please mention Him / Milrato Development, when using this Code!
- * @INFO
- */
